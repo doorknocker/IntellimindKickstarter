@@ -43,7 +43,7 @@ const Ranking = () => {
               })}
           </tbody>
         </table>
-        <p>* The top 6 people will get a lifetime subscription</p>
+        <p>* The top 5 people will get a lifetime subscription</p>
       </div>
     </FocusedLayout>
   );

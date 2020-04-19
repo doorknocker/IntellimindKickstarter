@@ -46,13 +46,16 @@ text-decoration: none ;
 width: 8rem ;
 text-align:center;
 padding: 1rem;
+text-decoration: none ;
+font-size: large ;
+color: white ;
 
 &:hover {
   transform: translateY(-3px) ;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,0.7) ;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.7) ;
 }
 
 &:active{
   transform: translateY(0) ;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,0.4) ; ;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.4) ; 
 }` ;

@@ -31,7 +31,7 @@ const Info = () => {
       <SmallTitle>Interested in the early access?</SmallTitle>
       <Paragraph>
         Get early access by referring your friends. The more friends that join,
-        sooner you'll get access.
+        sooner you'll get access. 
       </Paragraph>
       <Social url={url} />
       <Paragraph>Or share this unique link.</Paragraph>

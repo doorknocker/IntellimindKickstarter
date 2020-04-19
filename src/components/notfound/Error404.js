@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components" ;
+import {Link} from "react-router-dom" ;
 
 import { BigTitle } from "../../styles/headings";
 import { FocusedLayout } from "../../styles/layouts";
@@ -13,11 +14,11 @@ const Brand = () => {
       <a href="https://www.intellimind.com/en">
         <img src={intellimind} alt="logo" />
       </a>
-      <div style={{display: "block"}}>
+      <div>
         <BigTitle>
           <span>404</span> Not Found
         </BigTitle>
-        <GoBack><a href="/" style={{textDecoration: "none", fontSize:"large", color: "white"}}>Go Back</a></GoBack>
+        <Link to="/" ><GoBack>Home Page</GoBack></Link>
       </div>      
     </FocusedLayout>
   );

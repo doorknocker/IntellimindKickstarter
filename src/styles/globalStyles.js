@@ -22,7 +22,9 @@ body {
   --alert: #e47870;
   --lightAlert: #ffe0de;
   --black: #000 ;
-
+  a{
+    text-decoration: none ;
+  }
   h1 {
     font-family: 'Girassol', cursive;
   }

@@ -36,3 +36,23 @@ export const BasicTag = styled(HighlightTag)`
   color: var(--textTitle);
   background: var(--bgBrand);
 `;
+
+export const GoBack= styled.div`  
+margin-top: 2rem ;
+background-color: var(--primary) ;
+color: white ;
+border-radius: 1rem;
+text-decoration: none ;
+width: 8rem ;
+text-align:center;
+padding: 1rem;
+
+&:hover {
+  transform: translateY(-3px) ;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.7) ;
+}
+
+&:active{
+  transform: translateY(0) ;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.4) ; ;
+}` ;

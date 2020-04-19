@@ -21,6 +21,7 @@ body {
   --lightPrimary: #e8f5f7;
   --alert: #e47870;
   --lightAlert: #ffe0de;
+  --black: #000 ;
 
   h1 {
     font-family: 'Girassol', cursive;

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import { BigTitle } from "../../styles/headings";
 import { FocusedLayout } from "../../styles/layouts";
